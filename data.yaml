@@ -1,0 +1,13 @@
+train: C:\Users\user\Desktop\Semiconductor.v1i.yolov8\train\images
+val: C:\Users\user\Desktop\Semiconductor.v1i.yolov8\valid\images
+test: C:\Users\user\Desktop\Semiconductor.v1i.yolov8\test\images
+
+nc: 4
+names: ['Capacitor', 'IC chip', 'Transistor', 'Wafer']
+
+roboflow:
+  workspace: joeyjhg
+  project: semiconductor
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/joeyjhg/semiconductor/dataset/1
